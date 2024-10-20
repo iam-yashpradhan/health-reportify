@@ -201,6 +201,7 @@ if uploaded_json is not None:
                 st.write(top_2_diseases[0][0], round(top_2_diseases[0][1], 3))
                 # st.write(top_5_symptoms)
                 symptoms_df = pd.DataFrame(top_5_symptoms, columns = ['Condition', 'Probability'])
+                st.subheader("Top Signs and Symptoms")
                 st.dataframe(symptoms_df)
 
 
