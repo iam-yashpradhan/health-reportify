@@ -1,0 +1,212 @@
+[
+    {
+        "date":"2024-10-19",
+        "RBC":4.67,
+        "platelets":281286,
+        "hemoglobin":12.9,
+        "medicines_taken":"Medicine C, Medicine D"
+    },
+    {
+        "date":"2024-10-18",
+        "RBC":4.8,
+        "platelets":190740,
+        "hemoglobin":14.5,
+        "medicines_taken":"Medicine A, Medicine B"
+    },
+    {
+        "date":"2024-10-17",
+        "RBC":4.77,
+        "platelets":266112,
+        "hemoglobin":13.6,
+        "medicines_taken":"Medicine C, Medicine D"
+    },
+    {
+        "date":"2024-10-16",
+        "RBC":5.03,
+        "platelets":173185,
+        "hemoglobin":13.1,
+        "medicines_taken":"Medicine C, Medicine D"
+    },
+    {
+        "date":"2024-10-15",
+        "RBC":5.28,
+        "platelets":284145,
+        "hemoglobin":14.9,
+        "medicines_taken":"Medicine A, Medicine B"
+    },
+    {
+        "date":"2024-10-14",
+        "RBC":4.93,
+        "platelets":319449,
+        "hemoglobin":14.2,
+        "medicines_taken":"Medicine C, Medicine D"
+    },
+    {
+        "date":"2024-10-13",
+        "RBC":5.29,
+        "platelets":377535,
+        "hemoglobin":12.1,
+        "medicines_taken":"Medicine E, Medicine F"
+    },
+    {
+        "date":"2024-10-12",
+        "RBC":4.97,
+        "platelets":266261,
+        "hemoglobin":13.5,
+        "medicines_taken":"Medicine E, Medicine F"
+    },
+    {
+        "date":"2024-10-11",
+        "RBC":4.58,
+        "platelets":337332,
+        "hemoglobin":12.9,
+        "medicines_taken":"Medicine E, Medicine F"
+    },
+    {
+        "date":"2024-10-10",
+        "RBC":5.29,
+        "platelets":319494,
+        "hemoglobin":13.7,
+        "medicines_taken":"Medicine C, Medicine D"
+    },
+    {
+        "date":"2024-10-09",
+        "RBC":4.6,
+        "platelets":397649,
+        "hemoglobin":15.1,
+        "medicines_taken":"Medicine C, Medicine D"
+    },
+    {
+        "date":"2024-10-08",
+        "RBC":4.72,
+        "platelets":343795,
+        "hemoglobin":12.2,
+        "medicines_taken":"Medicine E, Medicine F"
+    },
+    {
+        "date":"2024-10-07",
+        "RBC":4.65,
+        "platelets":424838,
+        "hemoglobin":14.7,
+        "medicines_taken":"Medicine E, Medicine F"
+    },
+    {
+        "date":"2024-10-06",
+        "RBC":4.96,
+        "platelets":279561,
+        "hemoglobin":12.8,
+        "medicines_taken":"Medicine C, Medicine D"
+    },
+    {
+        "date":"2024-10-05",
+        "RBC":5.27,
+        "platelets":438238,
+        "hemoglobin":15.5,
+        "medicines_taken":"Medicine A, Medicine B"
+    },
+    {
+        "date":"2024-10-04",
+        "RBC":4.87,
+        "platelets":194795,
+        "hemoglobin":13.2,
+        "medicines_taken":"Medicine C, Medicine D"
+    },
+    {
+        "date":"2024-10-03",
+        "RBC":4.87,
+        "platelets":417155,
+        "hemoglobin":15.6,
+        "medicines_taken":"Medicine E, Medicine F"
+    },
+    {
+        "date":"2024-10-02",
+        "RBC":5.21,
+        "platelets":238875,
+        "hemoglobin":16.0,
+        "medicines_taken":"Medicine C, Medicine D"
+    },
+    {
+        "date":"2024-10-01",
+        "RBC":4.92,
+        "platelets":324523,
+        "hemoglobin":14.3,
+        "medicines_taken":"Medicine E, Medicine F"
+    },
+    {
+        "date":"2024-09-30",
+        "RBC":4.84,
+        "platelets":342114,
+        "hemoglobin":13.4,
+        "medicines_taken":"Medicine E, Medicine F"
+    },
+    {
+        "date":"2024-09-29",
+        "RBC":4.66,
+        "platelets":361790,
+        "hemoglobin":16.0,
+        "medicines_taken":"Medicine E, Medicine F"
+    },
+    {
+        "date":"2024-09-28",
+        "RBC":4.65,
+        "platelets":208011,
+        "hemoglobin":15.3,
+        "medicines_taken":"Medicine A, Medicine B"
+    },
+    {
+        "date":"2024-09-27",
+        "RBC":4.93,
+        "platelets":215664,
+        "hemoglobin":15.1,
+        "medicines_taken":"Medicine A, Medicine B"
+    },
+    {
+        "date":"2024-09-26",
+        "RBC":4.74,
+        "platelets":282126,
+        "hemoglobin":13.8,
+        "medicines_taken":"Medicine A, Medicine B"
+    },
+    {
+        "date":"2024-09-25",
+        "RBC":4.81,
+        "platelets":377848,
+        "hemoglobin":14.9,
+        "medicines_taken":"Medicine A, Medicine B"
+    },
+    {
+        "date":"2024-09-24",
+        "RBC":5.28,
+        "platelets":180155,
+        "hemoglobin":15.4,
+        "medicines_taken":"Medicine C, Medicine D"
+    },
+    {
+        "date":"2024-09-23",
+        "RBC":4.85,
+        "platelets":172299,
+        "hemoglobin":12.2,
+        "medicines_taken":"Medicine E, Medicine F"
+    },
+    {
+        "date":"2024-09-22",
+        "RBC":4.53,
+        "platelets":327415,
+        "hemoglobin":12.9,
+        "medicines_taken":"Medicine A, Medicine B"
+    },
+    {
+        "date":"2024-09-21",
+        "RBC":4.73,
+        "platelets":228418,
+        "hemoglobin":15.8,
+        "medicines_taken":"Medicine C, Medicine D"
+    },
+    {
+        "date":"2024-09-20",
+        "RBC":5.25,
+        "platelets":311792,
+        "hemoglobin":14.0,
+        "medicines_taken":"Medicine C, Medicine D"
+    }
+]
