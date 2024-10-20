@@ -113,11 +113,8 @@ if uploaded_json is not None:
         # Display the plot
         st.pyplot(fig)
 
-        # Check if X-ray image is uploaded and display it
-        if uploaded_image is not None:
-            xray_image = Image.open(uploaded_image)
-            st.subheader("X-ray Image")
-            st.image(xray_image, caption="Uploaded X-ray", use_column_width=True)
+       
+        
 
     with tab2:
         st.header("Recommendation")
@@ -153,7 +150,7 @@ if uploaded_json is not None:
         if run_diagnosis:
             if uploaded_image is not None:
             # Display the uploaded image
-                st.image(uploaded_image, caption="Uploaded X-ray Image", use_column_width=True)
+                # st.image(uploaded_image, caption="Uploaded X-ray Image", use_column_width=True)
                 import skimage
                 import torch
                 import torch.nn.functional as F
@@ -188,7 +185,23 @@ if uploaded_json is not None:
                         k: float(v)
                         for k, v in zip(xrv.datasets.default_pathologies, preds[0].detach().numpy())
                     }
-                st.write(output)
+                # st.write(output)
+                identified_diseases = [
+                    "Atelectasis",
+                    "Pneumothorax",
+                    "Edema",
+                    "Emphysema",
+                    "Fibrosis",
+                    "Pneumonia"
+                ]
+                separated_diseases = {key: value for key, value in output.items() if key in identified_diseases}
+                lung_health = {key: value for key, value in output.items() if key not in identified_diseases}
+                top_2_diseases = sorted(separated_diseases.items(), key=lambda x: x[1], reverse=True)[:2]
+                top_5_symptoms = sorted(lung_health.items(), key=lambda x: x[1], reverse=True)[:5]
+                st.write(top_2_diseases[0][0], round(top_2_diseases[0][1], 3))
+                # st.write(top_5_symptoms)
+                symptoms_df = pd.DataFrame(top_5_symptoms, columns = ['Condition', 'Probability'])
+                st.dataframe(symptoms_df)
 
 
 
